@@ -58,12 +58,12 @@ lo      c11d392d-15a5-432b-aae5-ec7bd11f832c  loopback  lo
 ```
 
 2. 두 번째부터 수정 가능
-   [/etc/NetworkManager/system-connections/enp0s3.nmconnection](https://github.com/bitacademy2025-fullstack-cloud/rocky-practices/blob/main/lx/etc/NetworkManager/system-connectios/enp0s3.nmconnection)
+   [/etc/NetworkManager/system-connections/enp0s3.nmconnection](https://github.com/kswook0607/rocky-practices/tree/main/lx/etc/NetworkManager/system-connections)
    
 ```sh
 [ipv4]
 method=manual
-address=192.168.0.177/24, 192.168.0.1
+address=192.168.0.180/24, 192.168.0.1
 dns=168.126.63.1; 1.1.1.1
 may-fail=true
 
@@ -83,7 +83,7 @@ GENERAL.STATE:                          100 (connected (externally))
 GENERAL.CONNECTION:                     enp0s3
 GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/2
 WIRED-PROPERTIES.CARRIER:               on
-IP4.ADDRESS[1]:                         192.168.0.177/24
+IP4.ADDRESS[1]:                         192.168.0.180/24
 IP4.GATEWAY:                            192.168.0.1
 IP4.ROUTE[1]:                           dst = 0.0.0.0/0, nh = 192.168.66.1, mt = 100
 IP4.ROUTE[2]:                           dst = 192.168.0.0/24, nh = 0.0.0.0, mt = 100
@@ -108,7 +108,7 @@ GENERAL.STATE:                          100 (connected (externally))
 GENERAL.CONNECTION:                     enp0s3
 GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/2
 WIRED-PROPERTIES.CARRIER:               on
-IP4.ADDRESS[1]:                         192.168.0.177/24
+IP4.ADDRESS[1]:                         192.168.0.180/24
 IP4.GATEWAY:                            192.168.0.1
 IP4.ROUTE[1]:                           dst = 0.0.0.0/0, nh = 192.168.66.1, mt = 100
 IP4.ROUTE[2]:                           dst = 192.168.0.0/24, nh = 0.0.0.0, mt = 100
