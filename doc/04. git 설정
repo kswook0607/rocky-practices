@@ -36,7 +36,7 @@
 # ln -s git-2.45.0 git
 ```
 
-8. 설정([/etc/profile](https://github.com/kswook0607/rocky-practices/blob/main/lx/etc/profile)
+8. 설정([/etc/profile](https://github.com/bitacademy2025-fullstack-cloud/rocky-practices/blob/main/lx/etc/profile))
 ```sh
 export PATH=$PATH:/usr/local/bit2025/git/bin
 ```
